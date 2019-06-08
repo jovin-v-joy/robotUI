@@ -1,0 +1,62 @@
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.contents{
+    margin-left: 2em;
+}
+.show-controller{
+    padding-top: 0.5em;
+}
+
+.footerContainer {  position: absolute;  bottom: 0;  width: 100%; color: white; height: 2em;
+    text-align: center;
+background-color: black;
+}
+
+.text-control{
+    color: black;
+}
+
+.button-control{
+    margin-left: 0.5em;
+}
+
+.currentPosition{
+    font-size: 24px;
+    margin-left: 2em;
+}
+
+.error{
+    color:red;
+    margin-left: 0.5em;
+}
+
+.robot-table{
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+    width: 500px;
+    float: left;
+}
+.utility{
+    margin-top: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.robotCanvas{
+    background-color: aliceblue;
+}
+
+.robot-cell{
+    width: 100px;
+}
+
+.robot-row{
+    height: 100px;
+}
+td{
+    background-image:  url("../pages/reset.png");
+}
