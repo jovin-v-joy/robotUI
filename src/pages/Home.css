@@ -33,12 +33,16 @@ background-color: black;
     margin-left: 0.5em;
 }
 
-.robot-table{
+.robot-holder{
     text-align: center;
-    margin-top: 1em;
-    padding: 1em;
+    margin-top: 1em;    
+    padding: 0.5em;
     width: 500px;
     float: left;
+}
+.robot.table{
+    border: 0;
+    
 }
 .utility{
     margin-top: 1em;
@@ -58,5 +62,5 @@ background-color: black;
     height: 100px;
 }
 td{
-    background-image:  url("../pages/reset.png");
+    background-image:  url("../pages/reset.png");   
 }

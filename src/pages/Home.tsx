@@ -131,7 +131,7 @@ class Home extends React.Component<IProps, IState>{
           <button className='button-control' onClick={this.handleReport}>REPORT</button>
         </div>
 
-        <div className='robot-table'>
+        <div className='robot-holder'>
           <table className='robot-table'>
             <tr className='robot-row'>
               <td id='0x0' className='robot-cell' />
